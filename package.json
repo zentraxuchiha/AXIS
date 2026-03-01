@@ -1,0 +1,42 @@
+{
+  "name": "axis",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 4000 --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@auth/mongodb-adapter": "^3.11.1",
+    "@ducanh2912/next-pwa": "^10.2.9",
+    "@tiptap/extension-color": "^3.20.0",
+    "@tiptap/extension-text-style": "^3.20.0",
+    "@tiptap/extension-underline": "^3.20.0",
+    "@tiptap/react": "^3.20.0",
+    "@tiptap/starter-kit": "^3.20.0",
+    "@types/three": "^0.183.1",
+    "cloudinary": "^2.9.0",
+    "lucide-react": "^0.575.0",
+    "mongodb": "^7.1.0",
+    "mongoose": "^9.2.2",
+    "next": "16.1.6",
+    "next-auth": "^5.0.0-beta.30",
+    "openai": "^6.24.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "swr": "^2.4.0",
+    "three": "^0.183.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.6",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
